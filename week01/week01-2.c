@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    printf("讀入字元:");
+    char c;
+    scanf("%c",&c);
+    printf("讀到字元:%c\n",c);
+
+    char line[1000];
+    scanf("%s",line);
+    printf("%s\n",line);
+
+    return 0;
+}
